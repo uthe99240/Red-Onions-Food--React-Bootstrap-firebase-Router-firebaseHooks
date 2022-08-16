@@ -1,0 +1,27 @@
+.banner {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.btn:focus{
+    color: #e63d56;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}
+
+.btn-margin {
+    margin-right: 30px;
+    font-weight: 600;
+    border: none;
+    
+}
